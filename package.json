@@ -4,10 +4,11 @@
   "description": "Dynamic forms with validation and light/dark theme toggle",
   "homepage": "https://serhmel.github.io/react-forms",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
+    "build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "react": "^18.0.0",
