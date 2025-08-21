@@ -2,9 +2,12 @@
   "name": "react-forms",
   "version": "1.0.0",
   "description": "Dynamic forms with validation and light/dark theme toggle",
+  "homepage": "https://serhmel.github.io/react-forms",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vite"
+    "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^18.0.0",
@@ -16,6 +19,7 @@
     "@types/react": "^19.1.9",
     "@types/react-dom": "^19.1.7",
     "autoprefixer": "^10.0.0",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.0.0",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.9.2",
